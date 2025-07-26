@@ -68,7 +68,8 @@ nav ul li a:hover{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 23vw;
+    /* width: 23vw; */
+    width: fit-content;
     border: 2px solid black;
     gap: 11px;
     padding: 1.3rem;
@@ -114,8 +115,8 @@ input{
     text-align: center;
 }
 .btn{
-    width: 11vw;
-    padding: 0.1rem 0;
+    /* width: 11vw; */
+    padding: 0.1rem 0.2rem;
     font-size: 1.1rem;
     font-weight: bold;
 }
