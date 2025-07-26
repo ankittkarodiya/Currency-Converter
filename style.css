@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: antiquewhite;
+} */
+
+.container{
+    min-height: 100vh;
+}
+
+footer{
+    text-align: center;
+}
+
+nav{
+    background-color: #EBD6FB;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: flex;
+    padding: 21px 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 26px;
+}
+
+nav ul{
+    display: flex;
+    /* padding: 0; */
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(58, 17, 97);
+    transition: all;
+    transition-duration: 500ms;
+}
+nav ul li a:hover{
+    color: #687FE5;
+}
+
+.container{
+    border: 2px solid black;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 1.2rem;
+    padding-top: 1.2rem;
+}
+.container h2{
+    text-align: center;
+}
+.container form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 23vw;
+    border: 2px solid black;
+    gap: 11px;
+    padding: 1.3rem;
+}
+tbody{
+    display: none;
+}
+
+.currcont{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    padding: 1.2rem;
+
+}
+.currcont img{
+    width: 2rem;
+    /* height: fit-content; */
+}
+.imgcurr{
+    display: flex;
+    flex-direction: row;
+    /* align-items: ; */
+    justify-content:space-evenly;
+    border: 2px solid lightgray;
+    border-radius: 0.3rem;
+    width: 6rem;
+}
+select {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+/* select{
+    border: none;
+    
+} */
+input{
+    border: 2px solid lightgray;
+    border-radius: 0.2rem;
+    width: 6rem;
+    height: 1rem;
+    text-align: center;
+}
+.btn{
+    width: 11vw;
+    padding: 0.1rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#convertedValpara{
+    border: 2px solid lightgray;
+    height: 1rem;
+    text-align: center;
+}
